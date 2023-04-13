@@ -12,10 +12,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import warnings
 warnings.filterwarnings('ignore')
 
-import nltk
-from nltk.stem import WordNetLemmatizer
-nltk.download('popular', quiet=True) # for downloading packages
-
 # uncomment the following only the first time
 import nltk
 from nltk.stem import WordNetLemmatizer
