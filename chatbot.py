@@ -40,7 +40,7 @@ def LemNormalize(text):
 
 
 # Keyword Matching
-GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey",)
+GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey","Yo","Ayo","Whats'up")
 GREETING_RESPONSES = ["hi", "hey", "*nods*", "hi there", "hello", "I am glad! You are talking to me"]
 
 def greeting(sentence):
@@ -70,7 +70,7 @@ def response(user_response):
 
 
 flag=True
-print("ZURI: My name is Zuri-Bot. I will answer your queries about Chatbots and my favourite songs. If you want to exit, type Bye!")
+print("ZURI: My name is Zuri-Bot. I will answer your queries about Chatbots and NLP. If you want to exit, type Bye!")
 while(flag==True):
     user_response = input()
     user_response=user_response.lower()
